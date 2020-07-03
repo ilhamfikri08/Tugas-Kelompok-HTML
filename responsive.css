@@ -41,9 +41,18 @@
 .container-kiri p{
 	text-align:center;
      }
-  footer{
+ footer{
 	  height:400px;
   }
+ .IG a{
+	font-size:8px;
+	}
+ .TW a{
+	 font-size:8px;
+	}
+.container-kiri p{
+	font-size:8px;
+	}
 .pesan img {
     margin-top: auto;
     margin-left: auto;
@@ -73,6 +82,15 @@
 	.container-kanan{
 		width: 50%;
 	}
+	.IG a{
+	font-size:8px;
+	}
+ .TW a{
+	 font-size:8px;
+	}
+.container-kiri p{
+	font-size:8px;
+	}
 }
 
 /* mycss */
@@ -87,7 +105,7 @@ body {
 .contentMenu {
     margin-top: 40px;
     height: 800px;
-
+    margin-bot: 10px;
 
 }
 
