@@ -20,10 +20,12 @@
   .container-kiri{
     width: 100%;
     text-align:center;
+    float:none;
   }
   .container-kanan{
     width: 100%;
     text-align:center;
+    float:none;
   }
   footer{
 	  height:600px;
