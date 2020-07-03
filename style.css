@@ -120,5 +120,48 @@ li:hover{
 	padding-top: 20px;
 	padding-right: 30px;
 }
+.container-kanan{
+	margin: 10px 20px;
+	padding: 10px 20px;
+	text-align:center;
+	width:30%;
+	float:right;
+
+}
+.follow{
+	color:white;
+	font-size:30px;
+	}
+
+.IG{
+	display:inline-block;
+	margin: 5px 5px;
+	padding: 5px 5px;
+	background-color:none;
+	transition: all 0.3s; 
+}
+.TW{
+	display:inline-block;
+	margin: 5px 5px;
+	margin: 5px 5px;
+	background-color:none;
+	transition: all 0.3s;
+
+}
+.IG a{
+	color:white;
+	text-decoration:none;
+}
+.TW a{
+	color:white;
+	text-decoration:none;
+}
+
+.IG:hover {
+	background-color:grey;
+}
+.TW:hover {
+	background-color:grey;
+}
 
 }
