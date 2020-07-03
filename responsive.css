@@ -42,7 +42,7 @@
 	text-align:center;
      }
   footer{
-	  height:600px;
+	  min-height:100%;
   }
 .pesan img {
     margin-top: auto;
