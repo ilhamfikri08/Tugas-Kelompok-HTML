@@ -1,0 +1,32 @@
+@media all and (max-width: 670px) {
+  .menu {
+    display: none;
+  }
+  .right {
+    display: none;
+  }
+  .logo{
+  	font-size: 30px;
+  }
+  .menu-icon{
+  	display: block;
+  }
+  .banner{
+  	width: 100%
+  }
+  .bar{
+  	display: block;
+  }
+}
+
+@media all and (max-width: 1000px){
+	.logo{
+		font-size: 20px;
+		padding-left: 50px;
+		padding-top:35px;
+	}
+	li{
+		font-size: 15px;
+		padding-top:35px;
+	}
+}
