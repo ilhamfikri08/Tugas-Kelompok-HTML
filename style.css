@@ -120,4 +120,8 @@ li:hover{
 	padding-top: 20px;
 	padding-right: 30px;
 }
+footer{
+	background-color:black;
+	height: 200px;
+}
 }
