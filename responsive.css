@@ -50,3 +50,212 @@
 		width: 50%;
 	}
 }
+
+/* mycss */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* menu */
+
+.contentMenu {
+    margin-top: 200px;
+    height: 800px;
+
+
+}
+
+
+
+.contentMenu .container {
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+
+.contentMenu h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 13px #898989;
+
+}
+
+.contentMenu .container .card {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5px 15px 5px 15px;
+    margin-top: 20px;
+
+}
+
+.contentMenu .gambar img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 10px;
+
+
+}
+
+.contentMenu .card-judul {
+    font-size: 18px;
+    color: #898989;
+    margin-top: -30px
+}
+
+.contentMenu .card-isi {
+    font-size: 11px;
+    color: #a78989;
+    margin-top: -28px;
+
+}
+
+
+.card-pesan {
+    display: flex;
+
+
+}
+
+.contentMenu .card-pesan .harga {
+    font-size: 10px;
+
+    margin-top: -30px;
+
+
+}
+
+.pesan {
+    background-color: #FF9F00;
+
+    border: none;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+    width: 50px;
+    border-radius: 7px;
+    margin-left: 100px;
+    margin-top: -30px;
+    height: 30px;
+}
+
+
+
+.pesan img {
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    padding: 5px 15px 0px 15px;
+
+}
+
+/* dekstop */
+
+@media (min-width: 992px) {
+
+
+    .contentMenu {
+        margin-top: 200px;
+        height: 800px;
+
+
+    }
+
+
+
+    .contentMenu .container {
+
+        display: flex;
+        justify-content: space-between;
+
+        margin: auto;
+        flex-wrap: wrap;
+        max-width: 1170px;
+    }
+
+
+    .contentMenu h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 3px 3px 13px #898989;
+
+    }
+
+    .contentMenu .container .card {
+        width: 25%;
+        box-sizing: border-box;
+        padding: 10px;
+
+
+    }
+
+    .contentMenu .gambar img {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px 10px 0 0;
+        margin-top: 30px;
+
+
+    }
+
+    .contentMenu .card-judul {
+        font-size: 23px;
+        color: #898989;
+        margin-top: -28px;
+    }
+
+    .contentMenu .card-isi {
+        font-size: 13px;
+        color: #a78989;
+        margin-top: -30px;
+    }
+
+
+    .card-pesan {
+        display: flex;
+
+
+    }
+
+    .contentMenu .card-pesan .harga {
+        font-size: 15px;
+        margin-top: -30px;
+    }
+
+    .pesan {
+        background-color: #FF9F00;
+
+        border: none;
+        cursor: pointer;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        margin-top: -30px;
+        width: 80px;
+        height: 26px;
+        border-radius: 7px;
+        margin-left: 110px;
+    }
+
+
+
+    .pesan img {
+        margin: auto;
+        width: 20px;
+        height: 20px;
+        padding: 2px 30px 2px 30px;
+
+    }
+
+}
