@@ -120,6 +120,27 @@ li:hover{
 	padding-top: 20px;
 	padding-right: 30px;
 }
+footer{
+	background-color:black;
+	font-family: "poppins";
+	height:300px;
+	width:100%;
+}
+.logo-bawah{
+	position:relative;
+}
+.container-kiri p{
+	color:white;
+	font-size:16px;
+
+}
+.container-kiri{
+	margin: 50px 20px;
+	padding: 50px 20px;
+	text-align:center;
+	width:30%;
+	float:left;
+}
 .container-kanan{
 	margin: 10px 20px;
 	padding: 10px 20px;
