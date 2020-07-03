@@ -19,14 +19,28 @@
   }
   .container-kiri{
     width: 100%;
-    text-align:center;
     float:none;
   }
+  
   .container-kanan{
     width: 100%;
-    text-align:center;
     float:none;
   }
+  .follow{
+    text-align:center;
+  }
+  .TW{
+    text-align:center;  
+  }
+  .IG{
+    text-align:center;
+  }
+  .logo-bawah{
+	  text-align:center;
+	}
+.container-kiri p{
+	text-align:center;
+     }
   footer{
 	  height:600px;
   }
