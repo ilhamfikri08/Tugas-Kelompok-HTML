@@ -188,3 +188,143 @@ footer{
 }
 
 }
+.container {
+	width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.header-wrapper {
+	height: 420px;
+	
+}
+.header {
+	width: 50%;
+	float: left;
+}
+.title-wrapper {
+	margin-top: 70px;
+	opacity: 95%;
+}
+.title-wrapper p {
+	font-size: 22px;
+	padding-bottom: 18px;
+}
+.title-wrapper .btn-danger {
+	background-color: #E44450;
+	border: none;
+	border-radius: 35px;
+	font-size: 20px;
+	padding: 10px 20px;
+	transition: 0.3s;
+	text-decoration: none;
+}
+.title-wrapper .btn-danger:hover {
+	opacity: 0.9;
+	box-shadow: 0px 1px 10px grey;
+}
+.btn {
+	padding: 12px 24px;
+ 	color: black;
+	opacity: 0.8;
+	display: inline-block;
+	border-radius: 4px;
+}
+@media(max-width: 576px) {
+	.container {
+		width: 100%;
+		
+		
+	}
+	
+}
+@media(max-width: 1100px) {
+	.container {
+		width: 100%;
+	}
+	.header {
+		width: 100%;
+
+	}
+	.main-image-wrapper {
+		display: none;
+
+	}
+	.title-wrapper {
+		padding: 10px 20px 20px 20px;
+		padding-left: 20%;
+	}
+	.title-wrapper h1 {
+		font-size: 50px;
+	}
+	.title-wrapper p {
+		font-size: 30px;
+	}
+	.title-wrapper .btn-danger {
+		font-size: 30px;
+	}
+	.lesson-wrapper {
+		width: 100%;
+	}
+	.lesson-icon {
+		min-height: 100px;
+		min-width: 100px;
+
+		
+	}
+}
+
+@media(max-width: 576px) {
+	.lesson-wrapper {
+	background-color: #f7f7f7;
+	
+
+	}
+	
+	.title-icon h2 {
+		font-size: 18px;
+	}
+}
+
+.lesson-wrapper {
+	background-color: #f7f7f7;
+	height: 350px;
+	width: 100%;
+
+}
+.lesson {
+	float: left;
+	width: 25%;
+	background-color: white;
+}
+.lesson-icon {
+	min-height: 100px;
+	min-width: 200px;
+	padding: 20px;
+	border-radius: 6px;
+	box-shadow: 0px 5px 15px #E2E2E2;
+}
+.lesson-icon img {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 15px
+}
+.lesson-icon p {
+	margin-top: 25px;
+	font-size: 18px;
+	color: black;
+	position: relative;
+	top: 15px;
+	text-align: center;
+}
+.title-icon h2{
+	padding-top: 20px;
+	font-size: 35px;
+	text-align: left;
+}
+.title-icon p {
+	font-size: 25px;
+	text-align: center;
+}
