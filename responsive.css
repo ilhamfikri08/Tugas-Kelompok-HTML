@@ -17,9 +17,16 @@
   .bar{
   	display: block;
   }
-  .TW, .IG {
+  .container-kiri
     width: 100%;
+    text-align:center;
   }
+  .container-kanan{
+    width: 100%;
+    text-align:center;
+  }
+  footer{
+	  height:600px;
 	
 }
 
@@ -33,7 +40,10 @@
 		font-size: 15px;
 		padding-top:35px;
 	}
-	.TW, .IG {
+	.container-kiri{
     		width: 50%;
   		}
+	.container-kanan{
+		width: 50%;
+	}
 }
